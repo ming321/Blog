@@ -2,13 +2,14 @@
 {
     display: block;
     max-height:100px;
-    min-height: 30px;
+    min-height: 80px;
     height: auto;
     text-align: left;
     position: relative;
     width: 80%;
     max-width: 700px;
-    margin: 0 auto;
+    padding-bottom: 30px;
+    margin: 0 auto 10px auto;
 }
 #container{ margin: 0 auto;}
 #aside{ float: left; width: auto;min-width:350px; }
