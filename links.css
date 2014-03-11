@@ -1,0 +1,27 @@
+    #links {  
+        width:1000px; 
+        margin:0 auto;
+
+        /*key code:*/
+        overflow:hidden; 
+    }
+    #left, #center, #right {
+        /*key code:*/ 
+        margin-bottom:-10000px; 
+        padding-bottom:10000px; 
+    }
+    #left {
+        background:#00FFFF;
+        float:left; 
+        width:250px;          
+    }
+    #center { 
+        background:#FF0000; 
+        float:left; 
+        width:500px;         
+    }
+    #right { 
+        background:#00FF00;
+        float:right; 
+        width:250px;          
+    }
