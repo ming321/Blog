@@ -2,7 +2,7 @@
 {
     display: block;
     max-height:150px;
-    min-height: 80px;
+    min-height: 30px;
     height: auto;
     text-align: left;
     position: relative;
@@ -16,8 +16,8 @@
 #main{ float: left; width: auto;min-width:350px;}
 
 #clear{
-    min-height: 80px;
-    height: 80px;
+    min-height: 20px;
+    height: 30px;
     padding: 5px 0px;
     margin:5px 0px;
 }
