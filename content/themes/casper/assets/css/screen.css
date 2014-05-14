@@ -384,7 +384,7 @@ margin on the iframe, cause it breaks stuff. */
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
 .blog-logo img {
     display: block;
-    max-height: 100px;
+    max-height: 150px;
     width: auto;
     margin: 0 auto;
     line-height: 0;
@@ -950,3 +950,18 @@ margin on the iframe, cause it breaks stuff. */
    End of file. Media queries should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
    ========================================================================== */
+/*
+.sticker {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    max-height: 150px;
+}
+.sticker-img {
+    background-color: #ff4a85;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    max-height: 150px;
+}*/
+

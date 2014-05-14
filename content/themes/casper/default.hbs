@@ -30,6 +30,18 @@
       ga('send', 'pageview');
 
     </script>
+    
+    <style type="text/css">
+    	#sticker {
+    	    position: relative;
+            height:150px;
+            width:150px;
+            display:inline-block;
+	    }
+	    .sticker-img{
+	    	background-image: url({{@blog.logo}});
+	    }
+    </style>
 
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
@@ -77,7 +89,13 @@
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
 
+    <script type="text/javascript" src="{{asset "js/sticker.min.js"}}"></script>
 
+    <script type="text/javascript">
+        window.onload = function() {
+            Sticker.init('#sticker');
+        }
+    </script>
 
     <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
